@@ -8,6 +8,5 @@ References:
 
 notable points:
 1. This version has a lower placement of color sensor - more reliable given the distance to the blocks/prisoners
-2. Code has hardware return to starting point so manual calibration between runs not needed.
 
 ![Alt text](leoskee_lego-spike-grabber_thing.JPG)
