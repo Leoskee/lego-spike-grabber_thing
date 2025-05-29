@@ -3,32 +3,44 @@ F set speed to 10 %
 F run counterclockwise for .25 rotations
 A set speed to 10 %
 A run clockwise for 90 degrees
-wait 2 seconds
-if D is color 6 ? then
+wait .5 seconds
+if D is color -1 ? then
+   A run counterclockwise for 90 degrees
+if (D is color 6 ? or D is color 9 ?) then
    F run clockwise for .25 rotations
    F run counterclockwise for .25 rotations
    A run counterclockwise for 90 degrees
    F run clockwise for .25 rotations
-if D is color 9 ? then
+   F run counterclockwise for .25 rotations
+if (D is color 1 ? or (D is color 3 ? or (D is color 0 ? or (D is color 10 ? or (D is color 4 ? or D is color 7 ?))))) then
    F run clockwise for .25 rotations
    F run counterclockwise for .25 rotations
-   A run counterclockwise for 90 degrees
+   A run counterclockwise for 45 degrees
    F run clockwise for .25 rotations
-F set speed to 10 %
-F run counterclockwise for .25 rotations
-A set speed to 10 %
+   F run counterclockwise for .25 rotations
+   A run counterclockwise for 45 degrees
+wait .5 seconds
 A run counterclockwise for 90 degrees
-wait 2 seconds
-if D is color 6 ? then
+wait .5 seconds
+if D is color -1 ? then
+   A run clockwise for 90 degrees
+   F run clockwise for .25 rotations
+if (D is color 6 ? or D is color 9 ?) then
    F run clockwise for .25 rotations
    F run counterclockwise for .25 rotations
    A run clockwise for 90 degrees
    F run clockwise for .25 rotations
-if D is color 9 ? then
+if (D is color 1 ? or (D is color 3 ? or (D is color 0 ? or (D is color 10 ? or (D is color 4 ? or D is color 7 ?))))) then
    F run clockwise for .25 rotations
    F run counterclockwise for .25 rotations
-   A run clockwise for 90 degrees
+   A run clockwise for 45 degrees
    F run clockwise for .25 rotations
+   A run clockwise for 45 degrees
+stop program
+
+F run counterclockwise for .25 rotations
+
+F run clockwise for .25 rotations
 
 D is color 7 ?
 
