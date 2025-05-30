@@ -13,5 +13,7 @@ References:
 Some tweaks:
 1. This version has a lower placement of color sensor - more reliable given the distance to the blocks/prisoners.
 2. Also added eyes
+3. [leoskee video](https://www.dropbox.com/scl/fi/giz4ccqynjm6uc5n6kplu/leoskee_lego-spike-grabber_thing.MOV?rlkey=pqievn73vltcndx2gct7755qt&st=ne7cz05p&dl=0)
+
 
 ![Alt text](leoskee_lego-spike-grabber_thing.JPG)
